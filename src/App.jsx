@@ -104,7 +104,7 @@ function App() {
       {!valueSi ? (
         <div className="p-5">
           <h1 className="font-bold text-5xl text-center">
-            ¿Señors,Quieres ser mi San Valentin?
+            ¿Señorita Mia ,Quieres ser mi San Valentin?
           </h1>
           <img
             src={
@@ -148,7 +148,7 @@ function App() {
                 {
                   (document.title =
                     Object.keys(randomValor).length === 0
-                      ? '¿Señors,Quieres ser mi San Valentin?'
+                      ? '¿Señorita Mia ,Quieres ser mi San Valentin?'
                       : randomValor.description)
                 }
               </span>
